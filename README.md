@@ -1,4 +1,5 @@
-#Sort_Benchmark_cpp
+##Sort_Benchmark_cpp
+
 Small project in cpp, comparing bubble sort, quick sort(random pivot), quick sort(deterministic pivot) and mergeSort.
 How to use:
 1.build the solution using cmake.
