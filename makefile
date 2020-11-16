@@ -19,12 +19,12 @@ sortAlg: bin/Main.o bin/SortAlgos.o
 	@echo ' '
 
 
-bin/Main.o: src/Main.cpp
-	$(CC) $(CFLAGS) -c -Linclude -o bin/Main.o src/Main.cpp
+bin/Main.o: Main.cpp
+	$(CC) $(CFLAGS) -c -Linclude -o bin/Main.o Main.cpp
 
 
-bin/SortAlgos.o: src/SortAlgos.cpp
-	$(CC) $(CFLAGS) -c -Iinclude -o bin/SortAlgos.o src/SortAlgos.cpp
+bin/SortAlgos.o: SortAlgos.cpp
+	$(CC) $(CFLAGS) -c -Iinclude -o bin/SortAlgos.o SortAlgos.cpp
 
 
 #Clean the build directory
